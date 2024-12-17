@@ -514,6 +514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   block: {fileID: 1798662214}
   mainCamera: {fileID: 530429459}
+  previousBlock: {fileID: 1254990997}
 --- !u!4 &1500282297
 Transform:
   m_ObjectHideFlags: 0
@@ -541,6 +542,7 @@ GameObject:
   - component: {fileID: 1798662217}
   - component: {fileID: 1798662216}
   - component: {fileID: 1798662215}
+  - component: {fileID: 1798662219}
   m_Layer: 0
   m_Name: Block
   m_TagString: Untagged
@@ -634,6 +636,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1798662219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798662214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4145345c97d1c544aa7fb9d3afda3e7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
